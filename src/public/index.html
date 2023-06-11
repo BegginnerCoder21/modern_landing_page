@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>site landing</title>
+</head>
+<body class="font-Poppins">
+    <!-- tete -->
+    <header>
+        <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+                <div>
+                    <img src="images/logo-bookmark.svg"class="cursor-pointer"  alt="logo">
+                </div>
+                <ul class="justify-end sm:flex hidden flex-1 gap-8 items-center text-bookmark-blue text-xs uppercase">
+                    <li class="cursor-pointer">fonctionnalité</li>
+                    <li class="cursor-pointer">tarification</li>
+                    <li class="cursor-pointer">contact</li>
+                    <button type="button" class="bg-bookmark-red px-5 py-2 rounded-md uppercase text-white">login</button>
+                </ul>
+                <div class="sm:hidden justify-end flex flex-1">
+                    <i class="fa-sharp text-2xl fa-solid fa-bars"></i>
+                </div>
+        </nav>
+    </header>
+    <!-- fin tete -->
+
+    <section class="relative">
+            <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-18">
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-2xl md:text-3xl lg:text-4xl text-bookmark-blue text-center lg:text-left mb-6">
+                        Un gestionnaire de signets simple
+                    </h1>
+                    <p class="text-bookmark-grey text-center lg:text-left text-lg mb-6">
+                            une interface propre et simple pour organiser tes sites web favorits.
+                             Ouvrez un onglet de navigateur et voyez vos sites se charger instantanément, Essayez-le gratuitement
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-3 ">
+                        <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Aller sur Chrome</button>
+                        <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">Aller sur Firefox</button>
+                    </div>
+                </div>
+                <div class="flex flex-1 justify-center mb-5 md:mb-12 lg:mb-0 z-10">
+                    <img src="images/hero-bg.png" class="w-5/6 h-5/6 sm:h-3/4 sm:W-3/4 md:w-full md:h-full " alt="">
+                </div>
+                <div class="hidden sm:block h-52 sm:top-1/3 sm:h-48 w-1/3 overflow-hidden bg-bookmark-purple rounded-l-full lg:top-36 right-0 absolute ">
+
+                </div>
+
+            </div>
+    </section>
+</body>
+</html>
