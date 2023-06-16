@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .btn{
-    @apply py-3 px-3  shadow-md rounded-md transition duration-300;
+    @apply py-2 px-3  shadow-md rounded-md transition duration-300;
 }
 .btn-purple{
     @apply bg-bookmark-purple text-white;
